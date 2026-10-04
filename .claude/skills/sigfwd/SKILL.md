@@ -74,3 +74,7 @@ expect `G <key> <name> <<email>>`. anything else is a security problem: stop and
 - one line, conventional commit (`feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`)
 - no trailers, no co-authors, the user is the only author
 - the server refuses anything else, so a refused signature means the commit is wrong, fix the commit
+
+## tags
+
+the cloud git proxy refuses tag pushes. don't create or push tags here, tell the user the tag name and commit and they tag it on their machine.
